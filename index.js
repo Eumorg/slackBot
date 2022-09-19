@@ -2,6 +2,7 @@ const Slack = require('slack-node');
 require('dotenv').config();
 const list = require('./list.json')
  
+
 //cоздаем переменую для работы с ботом
 webhookUri = process.env.WEBHOOK
  
@@ -39,3 +40,6 @@ setInterval(reminder, 1000 * 60 * 60 * 24)
 
 
 //запускаем сервер и наслаждаемся)
+
+
+//P.S. это лишь набросок кода согласно ТЗ. Если заменить условия ТЗ реальными данными, то код полностью рабочий. Реально отправляет сообщения в слак)
